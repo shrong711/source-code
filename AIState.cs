@@ -34,7 +34,7 @@ public abstract class AIState : MonoBehaviour  //抽象類別 AI系統使用的�
 
     public virtual void OnAnimatorIKUpdated()  //控制身體部位
     {
-
+        
     }
 
     public virtual void OnTriggerEvent(AITriggerEventType eventType, Collider other)  //自訂Trigger事件
